@@ -7,7 +7,7 @@ const HFDBSQLAdapter = require('../')
 const { schema: DummySchema } = require('bfx-hf-ext-plugin-dummy')
 const HFDB = require('bfx-hf-models')
 
-const PSQL_CONNECTION = 'postgres://hf_testing:password@localhost:5432/hf_testing'
+const PSQL_CONNECTION = 'postgres://hf_testing:password@postgres:5432/hf_testing'
 
 const db = new HFDB({
   schema: DummySchema,
